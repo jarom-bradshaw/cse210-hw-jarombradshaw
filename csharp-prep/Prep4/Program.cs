@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 // I used AI to help learn do while. I essentialy tried it out didn't understand it,
-// then I had AI help debug syntax erros and make documentation more industry standard.
+// then I had AI help debug syntax erros and make documentation(comments) more industry standard.
 class Program
 {
     // safest way to iterate is foreach.
