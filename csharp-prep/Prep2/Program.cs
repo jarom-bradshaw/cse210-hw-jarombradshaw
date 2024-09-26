@@ -23,7 +23,7 @@ class Program
         {
             gradeValue = "C";
         }
-        else if (gradePercentage >= 70 && gradePercentage < 60)
+        else if (gradePercentage >= 60 && gradePercentage < 70)
         {
             gradeValue = "D";
         }
@@ -57,5 +57,13 @@ class Program
 
 
         Console.Write($"You have a {gradeValue}{gradePlusOrMinusString}");
+        
+        if (gradePercentage >= 70)
+        {
+            Console.WriteLine("You passed the class!");
+        }
+        else{
+            Console.WriteLine("Better luck next time!");
+        }
     }
 }
